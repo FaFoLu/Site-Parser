@@ -4,7 +4,7 @@ async function start() {
 
     const browser = await puppeteer.launch()
     const page  = await browser.newPage()
-    await page.goto('https://www.blockchain.com/explorer/assets/btc')
+    await page.goto('site link')
     await page.screenshot( {path: 'example.png'} )
 
     await browser.close()
