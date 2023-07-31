@@ -1,17 +1,18 @@
-# Парсер на Node.js за допомогою бібліотеці Puppeteer
+# Парсер на Node.js за допомогою бібліотеки Puppeteer
 
-## Installing
-```
-npm init -y
-```
+Цей проект представляє собою парсер для отримання скріншоту веб-сторінки за допомогою бібліотеки Puppeteer у headless режимі.
 
-## Installing Puppeteer
-```
-npm install puppeteer
-```
+## Встановлення
 
-## Launch Project
-```
-node index
-```
+1. Спочатку створіть `package.json` файл, виконавши команду:
+
+   ```bash
+   npm init -y
+2. Потім встановіть бібліотеку Puppeteer, виконавши команду:
+   ```bash
+   npm install puppeteer
+3. Запуск проекту
+Для отримання скріншоту веб-сторінки ви можете запустити файл `index.js`, виконавши команду:
+   ```bash
+   node index
 
